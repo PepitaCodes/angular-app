@@ -1,0 +1,57 @@
+.navbar{
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.offcanvas-header{
+    background-color: #245795;
+    height: 100px;
+    color: white;
+}
+.offcanvas-body{
+    background-color: white;
+}
+.offcanvas-item{
+    margin-top: 50px;
+}
+.offcanvas-link{
+    text-decoration: none;
+    color: black;
+}
+.img-nav{
+    height: 100%;
+}
+.btn-nav{
+    background-color: white;
+    border: 0px;
+    display: flex;
+    align-items: center !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.menu-nav{
+    display: flex;
+    height: 100%;
+}
+.toggler-navbar{
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .navbar{
+          padding-left: 1px;
+          padding-right: 1px;
+    }
+    .toggler-navbar{
+          display: flex;
+          background-color: white;
+          border-radius: 0% !important;
+          border: 0px;
+    }
+    .btn-nav{
+          display: none;
+    }
+}

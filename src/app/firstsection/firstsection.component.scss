@@ -1,0 +1,27 @@
+.first-section{
+    display: flex;
+    padding-top: 40px;
+    height: auto;
+}
+.first-section-texto{
+    margin-left: 40px;
+    width: 50%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.first-section-img{
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+    width: 50%;
+    overflow: hidden;
+}
+.first-section-img img{
+    display:block;
+    width:max-content;
+    height:max-content;
+}

@@ -24,3 +24,20 @@ section{
 .texto ul li{
     padding-bottom: 20px;
 }
+@media (max-width:900px){
+    section{
+        width: 100%;
+    }
+    .third-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .imagen{
+        width: 100%;
+    }
+    .texto{
+        width: 90%;
+        padding-top: 20px;
+    }
+    
+}

@@ -1,0 +1,33 @@
+section{
+    width: 100%;
+    padding-top: 20px;
+}
+.fourth-section{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.imagenes{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+@media(max-width: 900px){
+    .fourth-section{
+        margin-top: 10px;
+    }
+    .texto{
+        display: none;
+    }
+    .imagenes{
+        flex-direction: column;
+        padding-top: 0px;
+    }
+    .imagenes img{
+        padding: 50px;
+        padding-bottom: 0;
+    }
+}

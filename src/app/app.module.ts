@@ -7,6 +7,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FirstsectionComponent } from './firstsection/firstsection.component';
 import { SecondsectionComponent } from './secondsection/secondsection.component';
 import { ThirdsectionComponent } from './thirdsection/thirdsection.component';
+import { FourthsectionComponent } from './fourthsection/fourthsection.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ThirdsectionComponent } from './thirdsection/thirdsection.component';
     NavbarComponent,
     FirstsectionComponent,
     SecondsectionComponent,
-    ThirdsectionComponent
+    ThirdsectionComponent,
+    FourthsectionComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

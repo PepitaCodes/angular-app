@@ -11,3 +11,8 @@ section{
 .titulo h3{
     font-size: 50px;
 }
+@media (max-width: 900px) {
+    .carousel{
+        display: none;
+    }
+}

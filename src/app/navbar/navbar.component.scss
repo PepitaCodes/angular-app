@@ -4,6 +4,12 @@
     padding-right: 50px;
     box-shadow: 0 8px 15px 0 rgba(0,0,0,.2);
 }
+.first-container{
+    display: flex;
+}
+.first-container div{
+    display: flex;
+}
 .offcanvas-header{
     background-color: #245795;
     height: 100px;
@@ -40,7 +46,15 @@
 .toggler-navbar{
     display: none;
 }
-
+.icono-whatsapp{
+    font-size: 50px;
+    font-weight: bold;
+    color: #19a340;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    padding-left: 20px;
+}
 @media (max-width: 900px) {
     .navbar{
           padding-left: 1px;

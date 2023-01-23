@@ -1,6 +1,5 @@
-.first-section{
+section{
     display: flex;
-    padding-top: 40px;
     height: auto;
 }
 .first-section-texto{
@@ -21,21 +20,23 @@
     overflow: hidden;
 }
 .first-section-img img{
-    display:block;
-    width:max-content;
-    height:max-content;
+    max-width:auto;
+    height:auto;
 }
 @media (max-width: 900px) {
-    .first-section{
+    section{
         flex-direction: column;
         align-items: center;
         width: 100%;
     }
     .first-section-img{
-        width: 90%;
+        width: 100%;
+        height: auto;
         margin: auto;
     }
     .first-section-texto{
-        padding-top: 30px;
+        padding-top: 60px;
+        width: 70%;
+        margin: auto;
     }
 }

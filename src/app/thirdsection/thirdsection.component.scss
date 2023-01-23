@@ -1,0 +1,26 @@
+section{
+    width: 1200px;
+    margin: auto;
+}
+.third-section{
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+    width: 100%;
+}
+.imagen{
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+    width: 50%;
+    overflow: hidden;
+}
+.texto{
+    width: 50%;
+}
+.texto ul{
+    width: 80%;
+}
+.texto ul li{
+    padding-bottom: 20px;
+}
